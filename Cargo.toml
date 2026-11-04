@@ -1,0 +1,16 @@
+[package]
+name = "kits-lite"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Editable inventory kits with persistent cooldowns, permissions and read-only previews."
+authors = ["Strawberry Interactive LLC"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+strawberry-plugin-api = { path = "../strawberry-plugin-api" }
+
+# A repository of its own, not a member of a larger workspace.
+[workspace]
