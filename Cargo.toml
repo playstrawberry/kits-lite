@@ -1,6 +1,7 @@
 [package]
 name = "kits-lite"
 version = "0.1.0"
+license = "LicenseRef-Strawberry-Source-Available-1.0"
 edition = "2024"
 publish = false
 description = "Editable inventory kits with persistent cooldowns, permissions and read-only previews."
